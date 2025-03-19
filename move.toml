@@ -1,0 +1,16 @@
+[package]
+name = "NFT-Based--personalized--learning"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x820b1ea31ff7c0b60708e1292857df28acf8042c04652fb6c41821eed657d57a"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies] 
